@@ -1,0 +1,165 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f0f0;
+  color: #1a1a1a;
+  /* Crumpled paper texture */
+  background-image: url("paperbg.jpg");
+  background-attachment: fixed;
+}
+
+/* Navigation Bar */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px transparent;
+  transition: top 0.5s;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a1a1a;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  opacity: 0.2;
+}
+
+/* Main Container */
+.container {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Typography */
+.big-title {
+  font-size: 12vw;
+  font-weight: 900;
+  line-height: 0.8;
+  margin-right: 250px;
+  margin-bottom: 10px;
+ 
+}
+
+.sub-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 500px;
+  
+}
+
+.section-title {
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.content-text {
+  font-size: 18px;
+  max-width: 900px;
+  margin-bottom: 0px;
+}
+
+/* Layout Helpers */
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  align-items: center;
+  width: 100%;
+}
+
+.flex-col {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.grayscale {
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.grayscale:hover {
+  filter: grayscale(0%);
+}
+
+/* Work Experience Grid */
+.work-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.work-item {
+  flex: 1;
+  min-width: 250px;
+}
+
+.work-number {
+  font-size: 60px;
+  color: rgba(16, 185, 129, 0.2);
+  font-weight: 900;
+}
+
+/* Contact Details */
+.contact-info {
+  margin-top: 40px;
+}
+
+.contact-label {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.contact-value {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  padding: 40px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.hide {
+  top: -100px;
+}
