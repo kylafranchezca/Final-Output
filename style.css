@@ -65,11 +65,12 @@ nav a {
 
 
 footer {
+  padding: 40px;
   text-align: center;
   font-size: 12px;
-  padding: 10px;
-  color: #333;
+  opacity: 0.5;
 }
+
 
 @media (max-width: 1024px) {
   .big-title { font-size: 10vw; }
