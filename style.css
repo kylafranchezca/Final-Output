@@ -8,10 +8,11 @@ body {
   font-family: 'Inter', sans-serif;
   background-color: #f0f0f0;
   color: #1a1a1a;
-
+  
   background-image: url("paperbg.jpg");
   background-attachment: fixed;
 }
+
 
 nav {
   position: fixed;
@@ -41,6 +42,7 @@ nav a:hover {
   opacity: 0.2;
 }
 
+/* Main Container */
 .container {
   min-height: 90vh;
   display: flex;
@@ -51,6 +53,7 @@ nav a:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 
 .big-title {
   font-size: 12vw;
@@ -81,6 +84,7 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -109,6 +113,44 @@ img {
 .grayscale:hover {
   filter: grayscale(0%);
 }
+
+.work-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.work-item {
+  flex: 1;
+  min-width: 250px;
+}
+
+.work-number {
+  font-size: 60px;
+  color: rgba(16, 185, 129, 0.2);
+  font-weight: 900;
+}
+
+
+.contact-info {
+  margin-top: 40px;
+}
+
+.contact-label {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.contact-value {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 
 footer {
   padding: 40px;
