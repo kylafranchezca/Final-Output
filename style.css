@@ -197,7 +197,6 @@ footer {
 }
 
 
-@media (max-width: 768px) {
   .work-page .top {
     flex-direction: column;
   }
