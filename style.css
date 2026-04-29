@@ -47,7 +47,7 @@ nav a:hover {
 
 .container {
   flex: 1;
-  padding: 100px 20px 40px; 
+  padding: 120px 20px 40px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -75,7 +75,6 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-/* FLEX UTILITIES */
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -228,4 +227,13 @@ footer {
     text-align: center;
   }
 
+  footer {
+  width: 100%;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.6;
+
+  margin-top: auto;
+}
 }
